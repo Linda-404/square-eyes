@@ -14,3 +14,14 @@ footer ul{
     font-size: 16px;
     color: #F2DA51;
 }
+nav li{
+    display: inline-block;
+}
+nav ul{
+    padding: 19px;
+}
+nav a{
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
