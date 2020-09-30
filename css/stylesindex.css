@@ -10,17 +10,17 @@ h4 {
 .white {
     color: #fff;
 }
-footer ul{
+footer ul {
     font-size: 16px;
     color: #F2DA51;
 }
-nav li{
+nav li {
     display: inline-block;
 }
-nav ul{
+nav ul {
     padding: 19px;
 }
-nav a{
+nav a {
     font-weight: bold;
     font-size: 16px;
     color: #000;
