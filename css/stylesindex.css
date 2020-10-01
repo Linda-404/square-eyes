@@ -1,17 +1,17 @@
 h1 {
-    font-size: 40px;
+    font-size: 3em;
 }
 h2, h3 {
-    font-size: 20px;
+    font-size: 2em;
 }
 h4 {
-    font-size: 16px;
+    font-size: 1em;
 }
 .white {
     color: #fff;
 }
 footer ul {
-    font-size: 16px;
+    font-size: 1em;
     color: #F2DA51;
 }
 .container {
@@ -22,11 +22,11 @@ footer ul {
 }
 .top-left {
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: 0.5em;
+    left: 1em;
 }
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 0.5em;
+    left: 1em;
 }
