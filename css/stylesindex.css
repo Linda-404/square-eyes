@@ -15,9 +15,8 @@ footer ul {
     color: #F2DA51;
 }
 .container {
-    position: relative;
-    text-align: center;
-    color: #fff;
+    display: flex;
+    justify-content: flex-start;
 }
 .top-left {
     display: flex;
