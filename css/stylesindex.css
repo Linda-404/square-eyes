@@ -18,14 +18,16 @@ footer ul {
     position: relative;
     text-align: center;
     color: #fff;
+    top: 298px;
+    left: 667px;
 }
 .top-left {
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: 310px;
+    left: 689px;
 }
 .bottom-left{
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: 509x;
+    left: 689px;
 }
