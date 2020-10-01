@@ -24,3 +24,8 @@ footer ul {
     top: 8px;
     left: 16px;
 }
+.bottom-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
