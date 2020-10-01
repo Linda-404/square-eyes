@@ -15,6 +15,7 @@ footer ul {
     color: #F2DA51;
 }
 .container {
+    width: max-content;
     position: relative;
     text-align: center;
     color: white;
