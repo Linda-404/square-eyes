@@ -20,12 +20,10 @@ footer ul {
     color: #fff;
 }
 .top-left {
-    position: absolute;
-    top: 310px;
-    left: 689px;
+    display: flex;
+    justify-content: flex-start;
 }
 .bottom-left{
-    position: absolute;
-    top: 509x;
-    left: 689px;
+    display: flex;
+    justify-content: flex-end;
 }
