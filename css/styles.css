@@ -25,7 +25,8 @@ nav a {
 }
 .button {
     background-color: #ddd;
-    border: none;
+    border-width: 1px;
+    border: #F2B705;
     color: black;
     padding: 10px 20px;
     text-align: center;
