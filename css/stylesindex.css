@@ -30,3 +30,6 @@ footer ul {
     bottom: 0.5em;
     left: 1em;
 }
+main li {
+    padding: 6px;
+}
