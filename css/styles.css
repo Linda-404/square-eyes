@@ -35,7 +35,7 @@ nav a {
     cursor: pointer;
     border-radius: 24px;
 }
-div.headerbuttons {
+div .headerbuttons {
     display: flex;
     justify-content: flex-end;
 }
