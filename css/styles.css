@@ -38,5 +38,5 @@ nav a {
 .headerbuttons {
     display: flex;
     justify-content: flex-end;
-    justify-content: space-around;
+    align-items: flex-start;
 }
