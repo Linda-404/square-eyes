@@ -23,3 +23,15 @@ nav a {
     text-decoration: none;
     padding: 19px;
 }
+.button {
+    background-color: #F2DA51;
+    border: #F2B705;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
