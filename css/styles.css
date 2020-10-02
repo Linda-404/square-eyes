@@ -35,6 +35,10 @@ nav a {
     cursor: pointer;
     border-radius: 24px;
 }
+header section {
+    display: flex;
+    align-content: flex-start;
+}
 div .headerbuttons {
     display: flex;
     justify-content: flex-end;
@@ -42,8 +46,4 @@ div .headerbuttons {
 .logo {
     display: flex;
     align-self: flex-start;
-}
-header section {
-    display: flex;
-    align-content: flex-start;
 }
