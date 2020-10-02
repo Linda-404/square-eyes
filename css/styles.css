@@ -37,7 +37,7 @@ nav a {
 }
 div .headerbuttons {
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
 }
 .logo {
     display: flex;
