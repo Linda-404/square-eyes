@@ -38,7 +38,6 @@ nav a {
 .headerbuttons {
     display: flex;
     justify-content: flex-end;
-    align-content: flex-start;
 }
 .logo {
     display: flex;
