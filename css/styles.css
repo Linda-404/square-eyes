@@ -24,8 +24,8 @@ nav a {
     padding: 19px;
 }
 .button {
-    background-color: transparent radial-gradient(closest-side at 50% 50%, var(--unnamed-color-f2da51) 0%, var(--unnamed-color-f2b705) 100%) 0% 0% no-repeat padding-box;
-    border: #000;
+    background-color: #ddd;
+    border: none;
     color: black;
     padding: 10px 20px;
     text-align: center;
