@@ -43,7 +43,7 @@ nav a {
     display: flex;
     align-self: flex-start;
 }
-header.section {
+header section {
     display: flex;
     align-content: flex-start;
 }
