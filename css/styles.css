@@ -47,3 +47,6 @@ div .headerbuttons {
     display: flex;
     align-self: flex-start;
 }
+.topnew {
+    border-radius: 10px;
+}
