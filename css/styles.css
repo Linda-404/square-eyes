@@ -49,4 +49,8 @@ div .headerbuttons {
 }
 .topnew {
     border-radius: 10px;
+    max-width: 309px;
+}
+.form_input {
+    display: block;
 }
