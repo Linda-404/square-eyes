@@ -54,3 +54,6 @@ div .headerbuttons {
 .form_input {
     display: block;
 }
+.form_text {
+    font-size: 0.5em;
+}
