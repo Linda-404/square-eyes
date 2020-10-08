@@ -2,7 +2,7 @@ body {
     background-color: #F2DA51;
 }
 body{
-    background-image: url(..images/background_square-eyes.jpg);
+    background-image: url(../images/background_square-eyes.jpg);
     background-size: cover;
 }
 .type {
