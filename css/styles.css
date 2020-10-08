@@ -1,6 +1,9 @@
 body {
     background-color: #F2DA51;
 }
+body{
+    background-image: url(..images/background_square-eyes.jpg);
+}
 .type {
     font-family: 'montserrat',verdana, sans-serif;
 }
