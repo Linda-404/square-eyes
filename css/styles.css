@@ -43,7 +43,7 @@ header section {
     display: flex;
     align-content: flex-start;
 }
-div .headerbuttons {
+div.headerbuttons {
     display: flex;
     justify-content: flex-end;
 }
