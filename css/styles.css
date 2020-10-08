@@ -3,7 +3,7 @@ body {
 }
 body{
     background-image: url(../images/background_square-eyes1.jpg);
-    background-size: cover;
+    background-size: contain;
 }
 .type {
     font-family: 'montserrat',verdana, sans-serif;
