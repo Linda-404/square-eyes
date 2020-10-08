@@ -35,4 +35,5 @@ main li {
 }
 section ul {
     background-image: url(../images/pictures/fp_ontheset.jpg);
+    background-repeat: no-repeat;
 }
