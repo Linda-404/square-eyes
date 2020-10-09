@@ -22,6 +22,25 @@ nav ul {
     padding: 0px;
 }
 
+nav li {
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.current {
+    text-decoration: underline;
+}
+
 .hamburger-label {
     float: right;
     color: #fff;
@@ -32,4 +51,19 @@ nav ul {
 
 #hamburger-menu:checked ~ nav {
     display: block;
+}
+
+@media(min-widht: 600px){
+    nav {
+        display: inline-block;
+    }
+    .hamburger-label {
+        display: none;
+    }
+    ul {
+        display: flex;
+    }
+    li {
+        display: inline-block;
+    }
 }
