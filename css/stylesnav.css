@@ -58,6 +58,9 @@ nav a:hover {
 }
 
 @media(min-widht: 600px){
+    .logo {
+        float: left;
+    }
     nav {
         display: inline-block;
     }
