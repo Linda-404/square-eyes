@@ -17,6 +17,13 @@ body {
    font-weight: bold; 
 }
 
+.search {
+    display: inline-block;
+}
+.search-icon {
+    margin-left: 0;
+}
+
 .user-icon {
     font-size: 2em;
 }
