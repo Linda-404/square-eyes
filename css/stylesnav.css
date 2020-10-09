@@ -6,6 +6,10 @@ header{
     min-height: 119px;
 }
 
+.logo {
+    max-width: 300px;
+}
+
 .banner {
     background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
     background: #000000 0% 0% no-repeat padding-box;
