@@ -5,7 +5,6 @@ body {
 .banner {
     background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
     background: #000000 0% 0% no-repeat padding-box;
-    opacity: 1;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
 }
