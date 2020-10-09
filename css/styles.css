@@ -1,10 +1,12 @@
 body {
     background-color: #F2DA51;
 }
-body{
+body {
     background-image: url(../images/background_square-eyes1.jpg);
     background-size: cover;
 }
+
+
 .type {
     font-family: 'montserrat',verdana, sans-serif;
 }
@@ -14,11 +16,15 @@ body{
 .bold {
    font-weight: bold; 
 }
-nav li {
-    display: inline-block;
+
+nav {
+    background: #fff;
 }
 nav ul {
     padding: 10px;
+}
+nav li {
+    display: inline-block;
 }
 nav a {
     font-weight: bold;
@@ -26,6 +32,10 @@ nav a {
     color: #000;
     text-decoration: none;
     padding: 10px;
+}
+
+.current {
+    text-decoration: underline;
 }
 .button {
     background-color: #ddd;
@@ -48,6 +58,7 @@ div .headerbuttons {
     justify-content: flex-end;
 }
 .logo {
+    max-width: 300px;
     display: flex;
     align-self: flex-start;
 }
@@ -55,6 +66,7 @@ div .headerbuttons {
     border-radius: 10px;
     max-width: 309px;
 }
+
 .form_input {
     display: block;
 }
