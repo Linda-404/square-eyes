@@ -14,8 +14,8 @@ nav, #hamburger-menu {
     display: none;
 }
 
-#hamburger-menu:checked ~ nav {
-    display: block;
+nav ul {
+    padding: 0px;
 }
 
 .hamburger-label {
@@ -23,5 +23,9 @@ nav, #hamburger-menu {
     color: #fff;
     padding: 10px;
     font-size: 1,5em;
+    display: block;
+}
+
+#hamburger-menu:checked ~ nav {
     display: block;
 }
