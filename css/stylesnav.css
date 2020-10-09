@@ -2,6 +2,10 @@ body {
     background-image: url(../images/background_square-eyes1.jpg);
 }
 
+header{
+    min-height: 119px;
+}
+
 .banner {
     background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
     background: #000000 0% 0% no-repeat padding-box;
