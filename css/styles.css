@@ -17,6 +17,10 @@ body {
    font-weight: bold; 
 }
 
+.user-icon {
+    font-size: 2em;
+}
+
 nav {
     background: #fff;
 }
