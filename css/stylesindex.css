@@ -33,7 +33,7 @@ footer ul {
 main li {
     padding: 6px;
 }
-section ul ::before{
+section ul{
     background-image: url(../images/pictures/fp_ontheset.jpg);
     background-repeat: no-repeat;
 }
