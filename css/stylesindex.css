@@ -33,7 +33,17 @@ footer ul {
 main li {
     padding: 6px;
 }
-section ul{
-    background-image: url(../images/pictures/fp_ontheset.jpg);
-    background-repeat: no-repeat;
+
+.description {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.teaser {
+    max-width: 600px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    -moz-box-shadow: 0px 3px 6px #000;
+    -webkit-box-shadow: 0px 3px 6px #000;
+    box-shadow: 0px 3px 6px #000;
 }

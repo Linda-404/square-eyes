@@ -20,9 +20,6 @@ body {
 .search {
     display: inline-block;
 }
-.search-icon {
-    margin-left: 0;
-}
 
 .user-icon {
     font-size: 2em;
@@ -61,17 +58,21 @@ nav a {
     border-radius: 24px;
 }
 header section {
-    display: flex;
-    align-content: flex-start;
+    background-color: #000;
 }
-div .headerbuttons {
+header section::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.headerbuttons {
     display: flex;
     justify-content: flex-end;
 }
 .logo {
     max-width: 300px;
     display: flex;
-    align-self: flex-start;
+    justify-content: flex-start;
 }
 .topnew {
     border-radius: 10px;
