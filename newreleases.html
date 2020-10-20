@@ -5,36 +5,60 @@
         <meta name="description" content="search independent films by new releases">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/85b41cf053.js" crossorigin="anonymous"></script>
-        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/stylesnewreleases.css" rel="stylesheet">
     </head>
-    <body class="type">
-        <header>
-            <a href="index.html"><img src="images/logo_square-eyes1.png" alt="square eyes logo" width="300" height="auto"></a>
-            <div class="search">
-                <input type="text" placeholder="Search..">
-                <button><i class="fas fa-search"></i></button>
+    <body class=" gridbody type">
+        <header class="body-header">
+            <div class="gridheader">
+                <div class="header-logo">
+                    <img src="images/logo_square-eyes1.png" class="logo">
+                </div>
+                <div class="header-search searchbar">
+                    <input class="search" type="text" name="search" placeholder="search title or producer..">
+                    <button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="header-icon">
+                    <i class="far fa-user-circle user-icon"></i>
+                </div>
+                <div class="header-login">
+                    <button class="btn">log out</output></button>
+                </div>
             </div>
-            <i class="far fa-user-circle user-icon"></i>
-            <button>Log Out</button>
-
-            <nav>
-                <ul>
-                    <li class="current">New Releases</li>
-                    <li><a href="topratings.html">Top Ratings</a></li>
-                    <li><a href="genres.html">Genres</a></li>
-                </ul>
-            </nav>
         </header>
 
-        <main>
-            <h1>New Releases</h1>
-            <img src="images/films_topnew/new_drama-firestarter.jpg" alt="man standing infront of a raging fire" class="topnew">
-            <img src="images/films_topnew/new_comedy_bananaboys.jpg" alt="a group of guys in bananasuits sitting in a van" class="topnew">
-            <img src="images/films_topnew/new_comedy_horseplay.jpg" alt="two men with horsemasks play the accordion" class="topnew">
-            <img src="images/films_topnew/new_comedy_nostupid.jpg" alt="a neon sign that says no stupid people beyond this point" class="topnew">
-            <img src="images/films_topnew/new_horror_deadrevenge.jpg" alt="only two dirty hands visible climbing up a hill" class="topnew">
-            <img src="images/films_topnew/new_action_runner.jpg" alt="two men racing up stairs" class="topnew">
+        <nav class="body-nav">
+            <ul>
+                <li class="nav-list current">new releases</li>
+                <a href="topratings.html"><li class="nav-list">top ratings</li></a>
+                <a href="genres.html"><li class="nav-list">genres</li></a>
+            </ul>
+        </nav>
+
+        <main class="body-main">
+            <div class="gridmain">
+                <section class="main-title">
+                    <h1 class="title">New Releases</h1>
+                </section>
+                <section class="main-images">   
+                    <img src="images/films_topnew/new_drama-firestarter.jpg" alt="man standing infront of a raging fire" class="topnew">
+                    <img src="images/films_topnew/new_comedy_bananaboys.jpg" alt="a group of guys in bananasuits sitting in a van" class="topnew">
+                    <img src="images/films_topnew/new_comedy_horseplay.jpg" alt="two men with horsemasks play the accordion" class="topnew">
+                    <img src="images/films_topnew/new_comedy_nostupid.jpg" alt="a neon sign that says no stupid people beyond this point" class="topnew">
+                    <img src="images/films_topnew/new_horror_deadrevenge.jpg" alt="only two dirty hands visible climbing up a hill" class="topnew">
+                    <img src="images/films_topnew/new_action_runner.jpg" alt="two men racing up stairs" class="topnew">
+                </section> 
+            </div>
         </main>
     </body>
-    <footer></footer>
+
+    <footer class="body-footer">
+        <div class="grid-footer footer-items">
+            <div class="footer-item1">
+                <a>about</a>
+            </div>
+            <div class="footer-item2">
+                <a>contact</a>
+            </div>
+        </div>
+    </footer>
 </html>
