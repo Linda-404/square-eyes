@@ -1,6 +1,8 @@
 body {
     background-image: url(../images/background_square-eyes1.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header, nav, main, footer {
     background-color: #fff;
@@ -24,10 +26,10 @@ body {
 }
 .gridbody {
     display: grid;
-    grid-gap: 0.5em;
+    grid-gap: 1em;
     min-height: 100vh;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 100px max-content auto 70px;
+    grid-template-rows: 90px max-content auto 70px;
     grid-template-areas: 
     'header header header'
     'nav . .'
@@ -51,14 +53,19 @@ body {
 .gridheader {
     display: grid;
     min-height: 80px;
-    grid-template-columns: max-content auto auto max-content;
+    grid-template-columns:max-content auto auto max-content;
     grid-template-rows: auto;
     grid-template-areas: 
     'logo search icon login';
     align-content: center;
 }
+.arrow {
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 0;
+}
 .logo {
-    max-width: 300px;
+    max-width: 250px;
     justify-self: start;
 }
 .header-logo {

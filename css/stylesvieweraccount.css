@@ -1,3 +1,9 @@
+body {
+    background-image: url(../images/background_square-eyes1.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
 header {
     background-color: sandybrown;
 }
@@ -18,13 +24,13 @@ footer {
     display: grid;
     grid-gap: 1em;
     min-height: 100vh;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 100px 2em max-content 70px;
     grid-template-areas: 
-    'header header header header'
-    'nav . main main'
-    '. aside main main'
-    'footer footer footer footer';
+    'header header header header header'
+    'nav . main main main'
+    '. aside main main main'
+    'footer footer footer footer footer';
 }
 .body-header {
     grid-area: header;
@@ -34,10 +40,33 @@ footer {
 }
 .body-aside {
     grid-area: aside;
+    max-width: 245px;
+    border-radius: 10px;
 }
 .body-main {
     grid-area: main;
+    overflow: hidden;
 }
 .body-footer {
     grid-area: footer;
+}
+/*
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}*/
+.profile-image {
+    border-radius: 10px 10px 0px 0px;
+}
+.title {
+    margin-top: 0;
+}
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: scroll;
+}
+.film {
+    margin-right: 10px;
+    border-radius: 10px;
 }
