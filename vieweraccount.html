@@ -5,25 +5,32 @@
         <meta name="description" content="viewer account page">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/85b41cf053.js" crossorigin="anonymous"></script>
-        <link href="css/stylesvieweraccount.css">
+        <link href="css/stylesvieweraccount.css" rel="stylesheet">
     </head>
-    <body class="type">
-        <header>
+    <body class="gridbody type">
+        <header class="body-header">
             <a href="index.html"><img src="images/logo_square-eyes1.png" alt="square eyes logo" width="300" height="auto"></a>
             <i class="fas fa-search"></i>
             <i class="far fa-user-circle user-icon"></i>
             <button>Log Out</button>
         </header>
 
-        <nav>
-            <ul>
-                <li><a href="newreleases.html">New Releases</a></li>
-                <li><a href="topratings.html">Top Ratings</a></li>
-                <li><a href="genres.html">Genres</a></li>
-            </ul>
+        <nav class="body-nav">
+            <div class="nav-item">
+                <a href="newreleases.html">New Releases</a>
+                <a href="topratings.html">Top Ratings</a>
+                <a href="genres.html">Genres</a>
+            </div>
         </nav>
 
-        <main>
+        <aside class="body-aside">
+            <img src="images/pictures/profile_viewer.jpg">
+            <h3>name</h3>
+            <h3>email</h3>
+            <h3>change password</h3>
+        </aside>
+
+        <main class="body-main">
             <h1>Welcome Viewer!</h1>
             <section>
                 <h2>watchlist</h2>
@@ -38,7 +45,7 @@
         </main>
     </body>
 
-    <footer>
+    <footer class="body-footer">
         <a>about</a>
         <a>contact</a>
     </footer>
