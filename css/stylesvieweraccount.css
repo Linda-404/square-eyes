@@ -3,32 +3,48 @@ body {
     background-size: cover;
     margin: 0;
 }
+/*text styles*/
+.type {
+    font-family: 'montserrat',verdana, sans-serif;
+}
+/*buttonstyle*/
+.btn {
+    background-image: radial-gradient(#F2DA51, #F2B705);
+    border: 3px #F2B705;
+    border-radius: 24px;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 header {
-    background-color: sandybrown;
+    background-image: radial-gradient(#73665F, #3A3330);
 }
 nav {
-    background-color: silver;
+    background-color: none;
 }
 aside {
-    background-color: seagreen;
+    background-color: #fff;
 }
 main {
-    background-color: steelblue;
+    background-color: none;
 }
 footer {
-    background-color: tan;
+    background-image: radial-gradient(#73665F, #3A3330);
 }
 
+/*gridstyle*/
 .gridbody {
     display: grid;
     grid-gap: 1em;
     min-height: 100vh;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 100px 2em max-content 70px;
+    grid-template-rows: 100px 2em max-content 60px;
     grid-template-areas: 
     'header header header header header'
-    'nav . main main main'
+    'nav nav main main main'
     '. aside main main main'
     'footer footer footer footer footer';
 }
@@ -40,8 +56,6 @@ footer {
 }
 .body-aside {
     grid-area: aside;
-    max-width: 245px;
-    border-radius: 10px;
 }
 .body-main {
     grid-area: main;
@@ -50,23 +64,133 @@ footer {
 .body-footer {
     grid-area: footer;
 }
-/*
-.scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-}*/
+
+/*headerstyle*/
+.gridheader {
+    display: grid;
+    min-height: 100px;
+    grid-template-columns: auto repeat(2, 1fr) auto auto;
+}
+.arrow {
+    color: #F2B705;
+    font-size: 1.5em;
+    margin-left: 10px;
+    align-self: end;
+}
+.gridheader a {
+    align-self: end;
+}
+.logo {
+    background-image: radial-gradient(#F2DA51, #F2B705);
+    border: 3px #F2B705;
+    border-radius: 24px;
+    max-width: 250px;
+    margin-left: 10px;
+}
+.searchbox {
+    background-color: turquoise;
+    align-self: end;
+    display: flex;
+}
+.search {
+    background-color: wheat;
+    width: 300px;
+    border: none;
+    border-radius: 24px 0px 0px 24px;
+    padding: 10px;
+    margin-right: 0;
+}
+.search-btn {
+    background-image: radial-gradient(#F2DA51, #F2B705);
+    border: none;
+    border-radius: 0px 24px 24px 0px;
+    padding: 10px 20px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+.header-usericon {
+    background-color: violet;
+    color: #F2B705;
+    font-size: 2em;
+    margin-right: 0.5em;
+    align-self: end;
+}
+.logout {
+    background-color: wheat;
+    margin-right: 1em;
+    align-self: end;
+}
+
+
+/*navstyle*/
+.nav-items {
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+nav a {
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+/*asidestyle*/
+.body-aside {
+    max-width: 245px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    -moz-box-shadow: 0px 3px 6px #000;
+    -webkit-box-shadow: 0px 3px 6px #000;
+    box-shadow: 0px 3px 6px #000;
+}
 .profile-image {
     border-radius: 10px 10px 0px 0px;
 }
+.user-info {
+    margin-left: 10px;
+}
+
+/*mainstyle*/
 .title {
     margin-top: 0;
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 2px 2px #000;
+}
+.subtitle {
+    color: #fff;
+    font-size: 1.5em;
+    text-shadow: 2px 2px #000;
 }
 .scrolling-wrapper {
     display: flex;
     overflow-x: scroll;
 }
-.film {
-    margin-right: 10px;
+.genre {
     border-radius: 10px;
+    max-width: 252px;
+    border: 1px solid #000;
+    -moz-box-shadow: 0px 3px 6px #000;
+    -webkit-box-shadow: 0px 3px 6px #000;
+    box-shadow: 0px 3px 6px #000;
+    margin: 10px;
+}
+/*footerstyle*/
+.gridfooter {
+    display: grid;
+    grid-gap: 1em;
+    min-height: 60px;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: max-content;
+    grid-template-areas: 
+    'about contact';
+    align-content: center;
+    padding-left: 1em;
+}
+.about {
+    grid-area: about;
+    color: #F2B705;
+}
+.contact {
+    grid-area: contact;
+    color: #F2B705 ;
 }
