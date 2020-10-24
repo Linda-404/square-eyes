@@ -7,7 +7,6 @@ body {
 }
 header, footer {
     background-image: radial-gradient(#73665F, #3A3330);
-    background-attachment: fixed;
 }
 
 /*text styles*/
@@ -33,9 +32,13 @@ header, footer {
 }
 
 /*headerstyle*/
+header {
+    position: sticky;
+    top: 0;
+}
 .gridheader {
     display: grid;
-    min-height: 100px;
+    min-height: 90px;
     grid-template-columns: auto max-content 1fr auto auto;
 }
 .arrow {
@@ -101,6 +104,10 @@ header, footer {
 }
 
 /*navstyle*/
+nav {
+    position: sticky;
+    top: 105.517px;
+}
 .nav-items {
     font-size: 0.8em;
     margin-left: 1em;

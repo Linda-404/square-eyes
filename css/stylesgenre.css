@@ -7,7 +7,7 @@
     grid-gap: 1em;
     min-height: 100vh;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 100px 2em max-content max-content 60px;
+    grid-template-rows: 90px 2em max-content max-content 60px;
     grid-template-areas: 
     'header header header header header'
     'nav nav . . .'
@@ -30,6 +30,14 @@
 }
 
 /*mainstyle*/
+main {
+    background-color: none;
+    padding-left: 1em;
+}
+.main-title {
+    display: flex;
+    justify-content: center;
+}
 .title {
     margin-top: 0;
     color: #fff;
