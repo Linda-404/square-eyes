@@ -1,0 +1,80 @@
+/*gridstyle*/
+.gridbody {
+    display: grid;
+    grid-gap: 1em;
+    min-height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 90px 2em max-content max-content 60px;
+    grid-template-areas: 
+    'header header header header header'
+    'nav nav . . .'
+    '. main main main .'
+    '. main main main .'
+    'footer footer footer footer footer';
+}
+.body-header {
+    grid-area: header;
+}
+.body-nav {
+    grid-area: nav;
+}
+.body-main {
+    grid-area: main;
+}
+.body-footer {
+    grid-area: footer;
+}
+/*mainstyle*/
+main {
+    background-color: ivory;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    'title title'
+    'view view'
+    'description plot'
+    'review review';
+}
+
+.title {
+    grid-area: title;
+    margin-top: 0;
+    color: #fff;
+    font-size: 1.8em;
+    text-shadow: 2px 2px #000;
+    justify-self: center;
+}
+.view-film {
+    grid-area: view;
+    justify-self: center;
+}
+.film-description {
+    grid-area: description;
+}
+h2 {
+    font-size: 1em;
+}
+.plot {
+    grid-area: plot;
+}
+.viewer-reviews {
+    grid-area: review;
+}
+.film {
+    max-width: 600px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    -moz-box-shadow: 0px 3px 6px #000;
+    -webkit-box-shadow: 0px 3px 6px #000;
+    box-shadow: 0px 3px 6px #000;
+}
+.view-film {
+    position: relative;
+}
+.film-btns {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
