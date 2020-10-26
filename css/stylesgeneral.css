@@ -35,7 +35,15 @@ header, footer {
 header {
     position: sticky;
     top: 0;
+    width: 100%;
+    z-index: 10;
 }
+/*
+.wrapper {
+    width: 100%;
+    z-index: 10;
+    background: inherit;
+}*/
 .gridheader {
     display: grid;
     min-height: 90px;
@@ -120,6 +128,13 @@ nav a {
 nav a:hover {
     color: #fff;
     text-shadow: 1px 1px #000;
+}
+
+/*mainstyle*/
+main {
+    width:100%;
+    z-index:5;
+    overflow:auto;
 }
 
 /*footerstyle*/
