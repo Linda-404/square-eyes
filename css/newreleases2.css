@@ -59,6 +59,12 @@ header section:nth-of-type(2) {
     text-align: center;
     text-decoration: none;
 }
+.usericon {
+    margin-right: 1em;
+    color: #F2B705;
+    font-size: 2em;
+}
+
 /*buttonstyle*/
 .btn {
     background-image: radial-gradient(#F2DA51, #F2B705);
@@ -70,16 +76,23 @@ header section:nth-of-type(2) {
     text-decoration: none;
     font-weight: bold;
 }
+/*.hamburger-label {
+    display: none;
+}
+#hamburger-menu {
+    display: none;
+}*/
 
 /*nav style*/
 nav {
+    background-color: none;
     position: sticky;
     top: 83.05px;
     padding: 0.5em;
 }
 nav a {
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: #000;
     text-decoration: none;
     padding: 0.5em;
@@ -88,46 +101,39 @@ nav a:hover {
     color: #fff;
     text-shadow: 1px 1px #000;
 }
-
+.current {
+    text-decoration: underline;
+}
 main {
     background-color: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-main section:nth-of-type(2) {
-    background-color: #000;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: flex;
-    max-width: 600px;
-    border-radius: 10px;
-    border: 1px solid #000;
-    -moz-box-shadow: 0px 3px 6px #000;
-    -webkit-box-shadow: 0px 3px 6px #000;
-    box-shadow: 0px 3px 6px #000;
+main section {
+    width: 800px;
 }
 .title {
     color: #fff;
     font-size: 1.6em;
     text-shadow: 2px 2px #000;
 }
-.teaser {
-    max-width: 600px;
+.scrolling-wrapper {
+    margin-bottom: 1em;
+    display: flex;
+    overflow-x: scroll;
+}
+.film-info{
+    color: #fff;
+}
+.topnew {
     border-radius: 10px;
+    max-width: 15.625em;
     border: 1px solid #000;
     -moz-box-shadow: 0px 3px 6px #000;
     -webkit-box-shadow: 0px 3px 6px #000;
     box-shadow: 0px 3px 6px #000;
-}
-.fp-camera {
-    max-width: 200px;
-    border-radius: 10px 0px 0px 10px;
-}
-.main-text {
-    color: #fff;
-    max-width: 400px;
-    padding: 0.5em;
+    margin: 1em;
 }
 footer {
     padding: 1em;
@@ -137,10 +143,23 @@ footer a {
     padding: 1em;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     header {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
+    /*.hamburger-label {
+        float: right;
+        color: #fff;
+        padding: 10px;
+        font-size: 1,5em;
+        display: block;
+    }
+    nav, #hamburger-menu {
+        display: none;
+    }
+    
+    #hamburger-menu:checked ~ nav {
+        display: block;
+    }*/
 }

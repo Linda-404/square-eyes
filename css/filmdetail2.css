@@ -59,6 +59,11 @@ header section:nth-of-type(2) {
     text-align: center;
     text-decoration: none;
 }
+.usericon {
+    color: #F2B705;
+    font-size: 2em;
+}
+
 /*buttonstyle*/
 .btn {
     background-image: radial-gradient(#F2DA51, #F2B705);
@@ -73,6 +78,7 @@ header section:nth-of-type(2) {
 
 /*nav style*/
 nav {
+    background-color: burlywood;
     position: sticky;
     top: 83.05px;
     padding: 0.5em;
@@ -89,58 +95,77 @@ nav a:hover {
     text-shadow: 1px 1px #000;
 }
 
+/*main style*/
 main {
-    background-color: none;
+    background-color: brown;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-main section:nth-of-type(2) {
-    background-color: #000;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: flex;
-    max-width: 600px;
-    border-radius: 10px;
-    border: 1px solid #000;
-    -moz-box-shadow: 0px 3px 6px #000;
-    -webkit-box-shadow: 0px 3px 6px #000;
-    box-shadow: 0px 3px 6px #000;
+main section {
+    width: 37.5em;
 }
 .title {
     color: #fff;
     font-size: 1.6em;
     text-shadow: 2px 2px #000;
 }
-.teaser {
-    max-width: 600px;
+.film {
+    max-width: 37.5em;
     border-radius: 10px;
     border: 1px solid #000;
     -moz-box-shadow: 0px 3px 6px #000;
     -webkit-box-shadow: 0px 3px 6px #000;
-    box-shadow: 0px 3px 6px #000;
+    box-shadow: 0px 3px 6px #000
 }
-.fp-camera {
-    max-width: 200px;
-    border-radius: 10px 0px 0px 10px;
+.view-film {
+    position: relative;
 }
-.main-text {
-    color: #fff;
-    max-width: 400px;
-    padding: 0.5em;
+.film-btns {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.filmpage-content {
+    background-color: cornsilk;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.description {
+    background-color: none;
+    display: flex;
+}
+h2 {
+    font-size: 1em;
+}
+.film-description {
+    background-color: #fff;
+    margin: 0.5em;
+    padding-left: 0.5em;
+}
+.plot {
+    background-color: #fff;
+    margin: 0.5em;
+    padding-left: 0.5em;
+    flex-direction: column;
+}
+.viewer-reviews {
+    background-color: bisque;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.review {
+    background-color: cadetblue;
+    margin: 0.5em;
+}
+
 footer {
     padding: 1em;
 }
 footer a {
     color: #F2B705;
     padding: 1em;
-}
-
-@media screen and (max-width: 700px) {
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }

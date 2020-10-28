@@ -225,3 +225,12 @@ aside {
     grid-area: contact;
     color: #F2B705 ;
 }
+
+
+@media screen and (max-width: 700px) {
+    body {
+        background-image: url(../images/background-square-eyes2.jpg);
+        background-size: cover;
+    }
+    
+}

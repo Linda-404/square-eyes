@@ -51,6 +51,15 @@ form {
 a {
     text-decoration: none;
 }
+h1, h2 {
+    font-size: 1em;
+}
+.exit {
+    float: right;
+}
+legend {
+    padding: 1em;
+}
 .form-fillout {
     font-size: 0.8em;
     padding-bottom: 1em;
@@ -65,7 +74,17 @@ a {
 .current {
     text-decoration: underline;
 }
-
+.active {
+    background-color: #F2DA51;
+}
+.cc {
+    font-size: 2em;
+    padding: 0.5em;
+}
+.paypal {
+    font-size: 2em;
+    padding: 0.5em;
+}
 .check {
     padding-top: 1em;
 }
