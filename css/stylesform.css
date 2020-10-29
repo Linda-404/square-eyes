@@ -51,7 +51,12 @@ form {
 a {
     text-decoration: none;
 }
-h1, h2 {
+h1 {
+    margin-top: 0;
+    font-size: 1.5em;
+} 
+
+h2 {
     font-size: 1em;
 }
 .exit {
@@ -107,5 +112,5 @@ legend {
 }
 .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
