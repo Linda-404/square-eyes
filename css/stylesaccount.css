@@ -138,7 +138,7 @@ nav a:hover {
 
 /*asidestyle*/
 aside {
-    background-color: #fff;
+    background-color: cornsilk;
     max-width: 245px;
     border-radius: 10px;
     border: 1px solid #000;
@@ -169,15 +169,16 @@ main section {
     width: 800px;
 }
 .title {
-    color: #fff;
+    color: cornsilk;
     font-size: 1.6em;
     text-shadow: 2px 2px #000;
 }
 .subtitle {
-    color: #fff;
+    color: cornsilk;
     font-size: 1em;
     text-shadow: 2px 2px #000;
 }
+
 /*.title {
     margin-top: 0;
     color: #fff;
@@ -193,6 +194,7 @@ main section {
     display: flex;
     overflow-x: scroll;
 }
+
 .genre {
     border-radius: 10px;
     max-width: 252px;
@@ -201,6 +203,38 @@ main section {
     -webkit-box-shadow: 0px 3px 6px #000;
     box-shadow: 0px 3px 6px #000;
     margin: 10px;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.filminfo {
+    position: relative;
+}
+.filmtitle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.filminfo:hover .genre {
+    opacity: 0.3;
+}
+.filminfo:hover .filmtitle {
+    opacity: 1;
+}
+.filminfo:hover .ratings {
+    opacity: 1;
+}
+.filmtext {
+    color: #fff;
+}
+.ratings {
+    margin-top: 1em;
 }
 
 /*footer style*/
@@ -253,6 +287,9 @@ footer a {
     }
     main section {
         width: 700px;
+    }
+    .filmtitle {
+        opacity: 1;
     }
 }
 
@@ -315,5 +352,10 @@ footer a {
     .genre {
         width: 100px;
     }
-    
+    .filmtext {
+        font-size: 0.7em;
+    }
+    .ratings {
+        font-size: 0.5em;
+    }
 }
