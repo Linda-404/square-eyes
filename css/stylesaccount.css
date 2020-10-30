@@ -152,6 +152,7 @@ aside {
 }
 .user {
     margin-left: 10px;
+    font-size: 0.8em;
 }
 .user-info {
     display: flex;
@@ -168,6 +169,16 @@ main section {
     width: 800px;
 }
 .title {
+    color: #fff;
+    font-size: 1.6em;
+    text-shadow: 2px 2px #000;
+}
+.subtitle {
+    color: #fff;
+    font-size: 1em;
+    text-shadow: 2px 2px #000;
+}
+/*.title {
     margin-top: 0;
     color: #fff;
     font-size: 2em;
@@ -177,7 +188,7 @@ main section {
     color: #fff;
     font-size: 1.5em;
     text-shadow: 2px 2px #000;
-}
+}*/
 .scrolling-wrapper {
     display: flex;
     overflow-x: scroll;
@@ -224,6 +235,21 @@ footer a {
     }
     .searchbox {
         margin-left: 0;
+    }
+    .user-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    aside {
+        display: flex;
+    }
+    .profile-image {
+        width: 14em;
+    }
+    .user {
+        font-size: 0.7em;
+        width: 14em;
     }
     main section {
         width: 700px;
