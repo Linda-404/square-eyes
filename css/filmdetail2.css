@@ -126,9 +126,7 @@ label {
     margin-left: 1em;
 }
 
-
-/*--nav style--*/
-
+/*nav styles*/
 nav {
     background-color: none;
     position: sticky;
@@ -163,6 +161,7 @@ main section {
 .title {
     color: #fff;
     font-size: 1.6em;
+    font-weight: bolder;
     text-shadow: 2px 2px #000;
 }
 .film {
@@ -228,6 +227,46 @@ footer a {
     padding: 1em;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 500px){
+    body {
+        background-image: url(../images/background-square-eyes2.jpg);
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
     
+    .header-nav {
+        display: none;
+	    flex-direction: column;
+	    justify-content: flex-start;
+        align-items: flex-start;
+	    position: absolute;
+        top: 90px;
+        width: 100%;
+        
+    }
+    #hamburger-menu:checked ~ section {
+	    display: flex;
+    }
+    .search {
+        width: 200px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    nav a {
+        color: #F2B705;
+    }
+    .title {
+        font-size: 0.9em;
+    }
+    main section {
+        width: 300px;
+    }
+    .subtitle {
+        font-size: 0.8em;
+    }
 }
