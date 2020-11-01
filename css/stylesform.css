@@ -1,6 +1,16 @@
+/*/*-----form styles-----*/
+
 body, html {
     height: 100%;
     margin: 0;
+}
+:root {
+    --black: #000;
+    --black-brown: #261A13;
+    --dark-yellow: #F2B705;
+    --light-yellow: #F2DA51;
+    --corn: cornsilk;
+    --white: #fff;
 }
 
 * {
@@ -24,12 +34,12 @@ body, html {
 }
 
 form {
-    background-color: #fff;
-    -moz-box-shadow: 0px 3px 6px #000;
-    -webkit-box-shadow: 0px 3px 6px #000;
-    box-shadow: 0px 3px 6px #000;
-    color: #000;
-    width: 300px;
+    background-color: var(--corn);
+    -moz-box-shadow: 0px 3px 6px var(--black);
+    -webkit-box-shadow: 0px 3px 6px var(--black);
+    box-shadow: 0px 3px 6px var(--black);
+    color: var(--black);
+    width: 18.75em;
     border-radius: 10px;
     position: absolute;
     padding: 1em;
@@ -39,9 +49,7 @@ form {
     /*-moz-transform: translate(-50%, -50%);*/
     z-index: 2;
 }
-/*form a {
-    padding: 2em;
-}*/
+
 .form-title {
     font-size: 1em;
     margin-bottom: 2em;
@@ -80,7 +88,7 @@ legend {
     text-decoration: underline;
 }
 .active {
-    background-color: #F2DA51;
+    background-color: var(--white);
 }
 .cc {
     font-size: 2em;
@@ -91,14 +99,14 @@ legend {
     padding: 0.5em;
 }
 .check {
-    padding-top: 1em;
+    padding-bottom: 1em;
 }
 /*buttonstyle*/
 .btn {
-    background-image: radial-gradient(#F2DA51, #F2B705);
-    border: outset 1px #F2B705;
+    background-image: radial-gradient(var(--light-yellow), var(--dark-yellow));
+    border: outset 1px var(--dark-yellow);
     border-radius: 24px;
-    color: #000;
+    color: var(--black);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -107,8 +115,13 @@ legend {
 }
 .btn:hover {
     background-image: none;
-    background-color: wheat;
-    border: 3px #F2B705;
+    background-color: var(--light-yellow);
+    border: 3px var(--dark-yellow);
+}
+.btn:active {
+    background-image: none;
+    background-color: var(--light-yellow);
+    color: var(--white);
 }
 .container {
     display: flex;

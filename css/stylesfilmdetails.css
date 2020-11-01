@@ -1,3 +1,5 @@
+/*-----styles filmdetail-----*/
+
 /*main style*/
 main {
     background-color: none;
@@ -5,23 +7,24 @@ main {
     flex-direction: column;
     align-items: center;
     margin-bottom: 1em;
+    text-transform: capitalize;
 }
 main section {
     width: 37.5em;
 }
 .title {
-    color: #fff;
+    color: var(--corn);
     font-size: 1.6em;
     font-weight: bolder;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px var(--black);
 }
 .film {
     max-width: 37.5em;
     border-radius: 10px;
-    border: 1px solid #000;
-    -moz-box-shadow: 0px 3px 6px #000;
-    -webkit-box-shadow: 0px 3px 6px #000;
-    box-shadow: 0px 3px 6px #000
+    border: 1px solid var(--black);
+    -moz-box-shadow: 0px 3px 6px var(--black);
+    -webkit-box-shadow: 0px 3px 6px var(--black);
+    box-shadow: 0px 3px 6px var(--black);
 }
 .view-film {
     position: relative;
@@ -34,7 +37,7 @@ main section {
 }
 
 .filmpage-content {
-    background-color: #fff;
+    background-color: var(--black-brown);
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -46,28 +49,30 @@ h2 {
     font-size: 1em;
 }
 .film-description {
-    background-color: cornsilk;
+    background-color: var(--corn);
     margin: 0.5em;
     padding-left: 0.5em;
 }
 .plot {
-    background-color: cornsilk;
+    background-color: var(--corn);
     margin: 0.5em;
     padding-left: 0.5em;
     flex-direction: column;
 }
 .viewer-reviews {
-    background-color: #fff;
+    background-color: var(--black-brown);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
+h3 {
+    color: var(--corn);
+    padding-left: 0.5em;
+}
 .review {
-    background-color: cornsilk;
+    background-color: var(--corn);
     width: 36.5em;
     margin: 0.5em;
-    /*display: flex;
-    flex-direction: column;*/
 }
 
 
@@ -89,7 +94,7 @@ h2 {
 	    display: flex;
     }
     .search {
-        width: 200px;
+        width: 12.5em;
     }
     .searchbox {
         margin-left: 0;
@@ -119,14 +124,14 @@ h2 {
 	    display: flex;
     }
     .search {
-        width: 200px;
+        width: 12.5em;
     }
     nav {
         display: flex;
         justify-content: center;
     }
     nav a {
-        color: #F2B705;
+        color: var(--dark-yellow);
     }
     .title {
         font-size: 0.9em;

@@ -24,15 +24,35 @@ body {
     background-attachment: fixed;
 }
 header, footer {
-    /*background-image: radial-gradient(#73665F, #3A3330);*/
-    /*background-image: linear-gradient(#261A13, #3A3330);*/
     background-color: var(--black-brown);
 }
+
 /*text style*/
 .type {
     font-family: 'montserrat',verdana, sans-serif;
 }
-
+/*buttonstyle*/
+.btn {
+    background-image: radial-gradient(var(--light-yellow), var(--dark-yellow));
+    border: 3px var(--dark-yellow);
+    border-radius: 24px;
+    color: var(--black);
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1em;
+}
+.btn:hover {
+    background-image: none;
+    background-color: var(--light-yellow);
+}
+.btn:active {
+    background-image: none;
+    background-color: var(--light-yellow);
+    color: var(--white);
+}
 
 
 /*--header style--*/
@@ -76,10 +96,10 @@ label {
     font-size: 1em;
 }
 .logo {
-    background-image: radial-gradient(#F2DA51, #F2B705);
+    background-image: radial-gradient(var(--light-yellow), var(--dark-yellow));
     border: 3px var(--dark-yellow);
     border-radius: 24px;
-    max-width: 250px;
+    max-width: 15.625em;
 }
 .searchbox {
     display: flex;
@@ -87,18 +107,18 @@ label {
 }
 .search {
     background-color: none;
-    width: 400px;
+    width: 25em;
     border: none;
     border-radius: 24px 0px 0px 24px;
     padding: 10px;
     margin-right: 0;
 }
 .search-btn {
-    background-image: radial-gradient(#F2DA51, #F2B705);
+    background-image: radial-gradient(var(--light-yellow), var(--dark-yellow));
     border: none;
     border-radius: 0px 24px 24px 0px;
     padding: 10px 20px;
-    color: #000;
+    color: var(--black);
     text-align: center;
     text-decoration: none;
 }
@@ -109,13 +129,14 @@ label {
     height: 36px;
     text-align: center;
     font-size: 2em;
-    border: 1px solid #000;
+    border: 1px solid var(--black);
     border-radius: 24px; 
     margin-left: 1em; 
 }
+
 /*buttonstyle*/
 .btn {
-    background-image: radial-gradient(#F2DA51, #F2B705);
+    background-image: radial-gradient(var(--light-yellow), var(--dark-yellow));
     border: 3px var(--dark-yellow);
     border-radius: 24px;
     color: var(--black);
@@ -124,6 +145,15 @@ label {
     text-decoration: none;
     font-weight: bold;
     margin-left: 1em;
+}
+.btn:hover {
+    background-image: none;
+    background-color: var(--light-yellow);
+}
+.btn:active {
+    background-image: none;
+    background-color: var(--light-yellow);
+    color: var(--white);
 }
 
 
@@ -134,17 +164,18 @@ nav {
     position: sticky;
     top: 83.05px;
     padding: 0.5em;
+    text-transform: capitalize;
 }
 nav a {
     font-weight: bold;
     font-size: 0.8em;
-    color: #000;
+    color: var(--black);
     text-decoration: none;
     padding: 0.5em;
 }
 nav a:hover {
     color: var(--white);
-    text-shadow: 1px 1px #000;
+    text-shadow: 1px 1px var(--black);
 }
 .current {
     text-decoration: underline;
@@ -156,12 +187,21 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1em;
 }
 .title {
     color: var(--corn);
     font-size: 1.6em;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px var(--black);
 }
+.subtitle {
+    color: var(--corn);
+    font-size: 1em;
+    text-shadow: 2px 2px var(--black);
+}
+
+
+
 
 /*--footer style--*/
 footer {

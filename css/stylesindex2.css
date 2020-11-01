@@ -8,36 +8,36 @@ main {
     align-items: center;
 }
 main section:nth-of-type(2) {
-    background-color: #000;
+    background-color: var(--black);
     margin-top: 1em;
     margin-bottom: 1em;
     display: flex;
-    max-width: 600px;
+    max-width: 37.5em;
     border-radius: 10px;
-    border: 1px solid #000;
-    -moz-box-shadow: 0px 3px 6px #000;
-    -webkit-box-shadow: 0px 3px 6px #000;
-    box-shadow: 0px 3px 6px #000;
+    border: 1px solid var(--black);
+    -moz-box-shadow: 0px 3px 6px var(--black);
+    -webkit-box-shadow: 0px 3px 6px var(--black);
+    box-shadow: 0px 3px 6px var(--black);
 }
 .title {
-    color: cornsilk;
+    color: var(--corn);
     font-size: 1.6em;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px var(--black);
 }
 .teaser {
-    max-width: 600px;
+    max-width: 37.5em;
     border-radius: 10px;
-    border: 1px solid #000;
-    -moz-box-shadow: 0px 3px 6px #000;
-    -webkit-box-shadow: 0px 3px 6px #000;
-    box-shadow: 0px 3px 6px #000;
+    border: 1px solid var(--black);
+    -moz-box-shadow: 0px 3px 6px var(--black);
+    -webkit-box-shadow: 0px 3px 6px var(--black);
+    box-shadow: 0px 3px 6px var(--black);
 }
 .fp-1 {
     position: relative;
 }
 
 .circle {
-    color: #F2B705;
+    color: var(--dark-yellow);
     position: absolute;
     top: 90%;
     left: 50%;
@@ -52,12 +52,12 @@ main i {
 }
 
 .fp-camera {
-    max-width: 200px;
+    max-width: 12.5em;
     border-radius: 10px 0px 0px 10px;
 }
 .main-text {
     color: cornsilk;
-    max-width: 400px;
+    max-width: 25em;
     padding: 0.5em;
 }
 .sign-log {
@@ -84,7 +84,7 @@ main i {
 	    display: flex;
     }
     .search {
-        width: 200px;
+        width: 12.5em;
     }
     .searchbox {
         margin-left: 0;
@@ -114,14 +114,14 @@ main i {
 	    display: flex;
     }
     .search {
-        width: 200px;
+        width: 12.5em;
     }
     nav {
         display: flex;
         justify-content: center;
     }
     nav a {
-        color: #F2B705;
+        color: var(--dark-yellow);
     }
     .title {
         font-size: 0.9em;

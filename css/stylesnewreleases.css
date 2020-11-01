@@ -1,130 +1,4 @@
-
-/*/*-----general styles-----*/
-
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-
-:root {
-    --black: #000;
-    --black-brown: #261A13;
-    --dark-yellow: #F2B705;
-    --light-yellow: #F2DA51;
-    --corn: cornsilk;
-    --white: #fff;
-
-
-}
-body {
-    background-image: url(../images/background_square-eyes1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-header, footer {
-    /*background-image: radial-gradient(#73665F, #3A3330);*/
-    /*background-image: linear-gradient(#261A13, #3A3330);*/
-    background-color: var(--black-brown);
-}
-/*text style*/
-.type {
-    font-family: 'montserrat',verdana, sans-serif;
-}
-
-
-
-/*--header style--*/
-
-header {
-    position: sticky;
-    top: 0;
-    height: 90px;
-    width: 100%;
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-.logo-arrow {
-    background-color: none;
-    margin-left: 1em;
-    display: flex;
-    flex-wrap: nowrap;
-}
-.header-nav {
-    background-color: var(--black-brown);
-    margin-right: 1em;
-}
-.header-nav {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap-reverse;
-}
-label {
-    margin-right: 1em;
-    color: var(--dark-yellow);
-    display: none;
-}
-#hamburger-menu {
-    display: none;
-}
-
-.arrow {
-    color: var(--dark-yellow);
-    font-size: 1em;
-}
-.logo {
-    background-image: radial-gradient(#F2DA51, #F2B705);
-    border: 3px var(--dark-yellow);
-    border-radius: 24px;
-    max-width: 250px;
-}
-.searchbox {
-    display: flex;
-    margin-left: 1em;
-}
-.search {
-    background-color: none;
-    width: 400px;
-    border: none;
-    border-radius: 24px 0px 0px 24px;
-    padding: 10px;
-    margin-right: 0;
-}
-.search-btn {
-    background-image: radial-gradient(#F2DA51, #F2B705);
-    border: none;
-    border-radius: 0px 24px 24px 0px;
-    padding: 10px 20px;
-    color: #000;
-    text-align: center;
-    text-decoration: none;
-}
-.usericon {
-    background-color: coral;
-    color: var(--dark-yellow);
-    width: 92.5px;
-    height: 36px;
-    text-align: center;
-    font-size: 2em;
-    border: 1px solid #000;
-    border-radius: 24px; 
-    margin-left: 1em; 
-}
-/*buttonstyle*/
-.btn {
-    background-image: radial-gradient(#F2DA51, #F2B705);
-    border: 3px var(--dark-yellow);
-    border-radius: 24px;
-    color: var(--black);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 1em;
-}
+/*-----styels topnew-----*/
 
 main {
     background-color: none;
@@ -132,27 +6,28 @@ main {
     flex-direction: column;
     align-items: center;
     margin-bottom: 1em;
+    text-transform: capitalize;
 }
 main section {
-    width: 800px;
+    width: 50em;
 }
 .title {
     color: var(--corn);
     font-size: 1.6em;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px var(--black);
 }
 .subtitle {
     color: var(--corn);
     font-size: 1em;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px var(--black);
 }
 .topnew {
     border-radius: 10px;
-    max-width: 270px;
-    border: 1px solid #000;
-    -moz-box-shadow: 0px 3px 6px #000;
-    -webkit-box-shadow: 0px 3px 6px #000;
-    box-shadow: 0px 3px 6px #000;
+    max-width: 16.875em;
+    border: 1px solid var(--black);
+    -moz-box-shadow: 0px 3px 6px var(--black);
+    -webkit-box-shadow: 0px 3px 6px var(--black);
+    box-shadow: 0px 3px 6px var(--black);
     margin: 10px;
     opacity: 1;
     display: block;
@@ -212,13 +87,13 @@ main section {
 	    display: flex;
     }
     .search {
-        width: 200px;
+        width: 12.5em;
     }
     .searchbox {
         margin-left: 0;
     }
     main section {
-        width: 700px;
+        width: 43.75em;
     }
     
     .filmtitle {
@@ -249,20 +124,20 @@ main section {
 	    display: flex;
     }
     .search {
-        width: 200px;
+        width: 12.5em;
     }
     nav {
         display: flex;
         justify-content: center;
     }
     nav a {
-        color: #F2B705;
+        color: var(--dark-yellow);
     }
     .title {
         font-size: 0.9em;
     }
     main section {
-        width: 300px;
+        width: 18.75em;
     }
     .subtitle {
         font-size: 0.8em;
@@ -274,7 +149,7 @@ main section {
         justify-content: center;
     }
     .topnew {
-        width: 100px;
+        width: 6.25em;
     }
     .filmtext {
         font-size: 0.7em;
