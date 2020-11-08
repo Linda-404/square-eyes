@@ -21,12 +21,12 @@ main {
 main section {
     width: 37.5em;
 }
-.title {
+/*.title {
     color: var(--corn);
     font-size: 1.6em;
     font-weight: bolder;
     text-shadow: 2px 2px var(--black);
-}
+}*/
 .film {
     max-width: 37.5em;
     border-radius: 10px;
