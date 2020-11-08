@@ -104,9 +104,15 @@ main section {
     main section {
         width: 43.75em;
     }
-    
+    .filminfo {
+        position: initial;
+    }
     .filmtitle {
         opacity: 1;
+        position: initial;
+        top: initial;
+        left: initial;
+        transform: initial;
     }
 }
 
