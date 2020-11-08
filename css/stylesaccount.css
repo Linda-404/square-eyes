@@ -11,13 +11,13 @@
 
 /*asidestyle*/
 aside {
-    background-color: cornsilk;
+    background-color: var(--corn);
     max-width: 245px;
     border-radius: 10px;
-    border: 1px solid #000;
-    -moz-box-shadow: 0px 3px 6px #000;
-    -webkit-box-shadow: 0px 3px 6px #000;
-    box-shadow: 0px 3px 6px #000;
+    border: 1px solid var(--black);
+    -moz-box-shadow: 0px 3px 6px var(--black);
+    -webkit-box-shadow: 0px 3px 6px var(--black);
+    box-shadow: 0px 3px 6px var(--black);
     margin-right: 1em;
     text-transform: capitalize;
 }
@@ -43,16 +43,16 @@ main {
 main section {
     width: 50em;
 }
-.title {
-    color: cornsilk;
+/*.title {
+    color: var(--corn);
     font-size: 1.6em;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px var(--black);
 }
 .subtitle {
-    color: cornsilk;
+    color: var(--corn);
     font-size: 1em;
-    text-shadow: 2px 2px #000;
-}
+    text-shadow: 2px 2px var(--black);
+}*/
 
 .scrolling-wrapper {
     display: flex;
@@ -62,10 +62,10 @@ main section {
 .genre {
     border-radius: 10px;
     max-width: 252px;
-    border: 1px solid #000;
-    -moz-box-shadow: 0px 3px 6px #000;
-    -webkit-box-shadow: 0px 3px 6px #000;
-    box-shadow: 0px 3px 6px #000;
+    border: 1px solid var(--black);
+    -moz-box-shadow: 0px 3px 6px var(--black);
+    -webkit-box-shadow: 0px 3px 6px var(--black);
+    box-shadow: 0px 3px 6px var(--black);
     margin: 10px;
     display: block;
     height: auto;
@@ -95,7 +95,7 @@ main section {
     opacity: 1;
 }
 .filmtext {
-    color: #fff;
+    color: var(--corn);
     text-transform: capitalize;
 }
 .ratings {
@@ -145,8 +145,15 @@ main section {
     main section {
         width: 700px;
     }
+    .filminfo {
+        position: initial;
+    }
     .filmtitle {
         opacity: 1;
+        position: initial;
+        top: initial;
+        left: initial;
+        transform: initial;
     }
 }
 
@@ -181,7 +188,7 @@ main section {
         justify-content: center;
     }
     nav a {
-        color: #F2B705;
+        color: var(--dark-yellow);
     }
     .title {
         font-size: 0.9em;
