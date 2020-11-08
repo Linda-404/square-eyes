@@ -99,6 +99,7 @@ main section {
     text-transform: capitalize;
 }
 .ratings {
+    color: var(--corn);
     margin-top: 1em;
 }
 
