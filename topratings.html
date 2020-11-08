@@ -13,24 +13,24 @@
     <body class="type">
         <header>
             <div class="logo-arrow">
-                <a class="arrow"><i class="fas fa-arrow-left"></i></a>
+                <div class="arrow"><i class="fas fa-arrow-left"></i></div>
                 <a href="index2.html"><img src="images/logo_square-eyes1.png" alt="square eyes logo" class="logo"></a>
             </div>
             <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
             <input type="checkbox" id="hamburger-menu">            
             <section class="header-nav">
                     <div class="searchbox">
-                        <input class="search" type="text" name="search" placeholder="search title or producer..">
-                        <button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                        <input class="search" type="text" name="search" aria-label="search input" placeholder="search title or producer..">
+                        <button class="search-btn" type="submit" aria-label="search"><i class="fas fa-search"></i></button>
                     </div>
-                    <a href="vieweraccount.html"><i class="far fa-user-circle user-icon usericon"></i></a>
-                    <a href="index.html"><button class="btn">log out</button></a>
+                    <a href="vieweraccount.html" aria-label="viewer account"><i class="far fa-user-circle user-icon usericon"></i></a>
+                    <a href="index.html" aria-label="log out"><button class="btn">log out</button></a>
             </section>
         </header>
 
         <nav>
             <a href="newreleases.html">new releases</a>
-            <a class="current">top ratings</a>
+            <a href="topratings.html" class="current">top ratings</a>
             <a href="genres.html">genres</a>
         </nav>
 
@@ -128,7 +128,7 @@
     </body>
     
     <footer>
-        <a>about</a>
-        <a>contact</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
     </footer>
 </html>

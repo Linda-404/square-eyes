@@ -14,9 +14,8 @@ html, body {
     --light-yellow: #F2DA51;
     --corn: cornsilk;
     --white: #fff;
-
-
 }
+
 body {
     background-image: url(../images/background_square-eyes1.jpg);
     background-size: cover;
@@ -192,12 +191,12 @@ main {
 .title {
     color: var(--corn);
     font-size: 1.6em;
-    text-shadow: 2px 2px var(--black);
+    text-shadow: 1px 1px var(--black);
 }
 .subtitle {
     color: var(--corn);
     font-size: 1em;
-    text-shadow: 2px 2px var(--black);
+    text-shadow: 1px 1px var(--black);
 }
 
 

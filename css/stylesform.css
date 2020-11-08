@@ -48,6 +48,7 @@ form {
     transform: translate(-50%, -50%);
     /*-moz-transform: translate(-50%, -50%);*/
     z-index: 2;
+    text-transform: capitalize;
 }
 
 .form-title {
@@ -112,6 +113,7 @@ legend {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
+    text-transform: capitalize;
 }
 .btn:hover {
     background-image: none;

@@ -13,39 +13,39 @@
 
         <form action="/signup" method="POST">
             <div class="exit">
-                <a href="index.html"><i class="fas fa-times"></i></a>
+                <a href="index.html" aria-label="exit"><i class="fas fa-times"></i></a>
             </div>
             <section class="form-title">
-                <a class="current">sign up</a>
+                <div class="current">sign up</div>
                 <a href="loginviewer.html">log in</a>
             </section>
             <div class="form-fillout">
                 <label for="first_name">first name</label>
-                <input type="text" name="first_name" placeholder="first name" class="form-input">
+                <input type="text" name="first_name" id="first_name" placeholder="first name" class="form-input">
             </div>
             <div class="form-fillout">
                 <label for="last_name">last name</label>
-                <input type="text" name="last_name" placeholder="last name" class="form-input">
+                <input type="text" name="last_name" id="last_name" placeholder="last name" class="form-input">
             </div>
             <div class="form-fillout">
                 <label for="email">email</label>
-                <input type="email" name="email" placeholder="name@example.com" class="form-input">
+                <input type="email" name="email" id="email" placeholder="name@example.com" class="form-input">
             </div>
             <div class="form-fillout">
                 <label for="password">password</label>
-                <input type="password" name="password" placeholder="password" class="form-input">
+                <input type="password" name="password" id="password" placeholder="password" class="form-input">
             </div>
             <div class="form-fillout">
                 <label for="password_confirm">confirm password</label>
-                <input type="password" name="password_confirm" placeholder="password_confirm" class="form-input">
+                <input type="password" name="password_confirm" id="password_confirm" placeholder="password_confirm" class="form-input">
             </div>
             <section class="check">
-                <label>producer</label>
-                <input type="radio" name="title" value="producer">   
-                <label>viewer</label>
-                <input type="radio" name="title" value="viewer">
-                <label>remember me</label>
-                <input type="checkbox" value="remember me">
+                <label for="producer">producer</label>
+                <input type="radio" name="producer" id="producer" value="producer">   
+                <label for="viewer">viewer</label>
+                <input type="radio" name="viewer" id="viewer" value="viewer">
+                <label for="remember">remember me</label>
+                <input type="checkbox" id="remember" value="remember me">
             </section>
             <section class="container">
                 <a href="vieweraccount.html"><input type="submit" value="sign up" class="btn"></a>

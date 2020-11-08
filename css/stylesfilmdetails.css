@@ -1,5 +1,14 @@
 /*-----styles filmdetail-----*/
 
+:root {
+    --black: #000;
+    --black-brown: #261A13;
+    --dark-yellow: #F2B705;
+    --light-yellow: #F2DA51;
+    --corn: cornsilk;
+    --white: #fff;
+}
+
 /*main style*/
 main {
     background-color: none;

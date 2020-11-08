@@ -13,31 +13,31 @@
 
         <form action="/Login" method="POST">
             <div class="exit">
-                <a href="index.html"><i class="fas fa-times"></i></a>
+                <a href="index.html" aria-label="exit"><i class="fas fa-times"></i></a>
             </div>
             <section class="form-title">
                 <a href="signup.html">sign up</a>
-                <a class="current">log in</a>
+                <div class="current">log in</div>
             </section>
             <section>
                 <div class="form-fillout">
                     <label for="email" class="form_text">email</label>
-                    <input type="email" name="email" placeholder="name@exemple.com" class="form-input">
+                    <input type="email" id="email" name="email" placeholder="name@exemple.com" class="form-input">
                 </div>
                 <div class="form-fillout">
                     <label for="password" class="form_text">password</label>
-                    <input type="password" name="password" placeholder="password" class="form-input">
+                    <input type="password" id="password" name="password" placeholder="password" class="form-input">
                 </div>
 
                 <div class="check">
-                    <label>producer</label>
-                    <input type="radio" name="title" value="producer">
-                    <label>viewer</label>
-                    <input type="radio" name="title" value="viewer">
+                    <label for="producer">producer</label>
+                    <input type="radio" id="producer" name="producer" value="producer">
+                    <label for ="viewer">viewer</label>
+                    <input type="radio" id="viewer" name="viewer" value="viewer">
                 </div>
                 <div class="check">
-                    <label>remember me</label>
-                    <input type="checkbox" value="remember me"><br><br>
+                    <label for="remember">remember me</label>
+                    <input type="checkbox" value="remember me" id="remember" name="remember"><br><br>
                 </div>
                 <div class="container">
                     <button class="btn"><a href="vieweraccount.html">log in</a></button>

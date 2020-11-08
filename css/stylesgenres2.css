@@ -1,5 +1,14 @@
 /*----styles genre-----*/
 
+:root {
+    --black: #000;
+    --black-brown: #261A13;
+    --dark-yellow: #F2B705;
+    --light-yellow: #F2DA51;
+    --corn: cornsilk;
+    --white: #fff;
+}
+
 /*main styles*/
 main {
     background-color: none;
@@ -12,7 +21,7 @@ main {
 main section {
     width: 50em;
 }
-.title {
+/*.title {
     color: var(--corn);
     font-size: 1.6em;
     text-shadow: 2px 2px var(--black);
@@ -21,7 +30,7 @@ main section {
     color: var(--corn);
     font-size: 1em;
     text-shadow: 2px 2px var(--black);
-}
+}*/
 .genre {
     border-radius: 10px;
     max-width: 15.75em;
@@ -43,13 +52,12 @@ main section {
     position: relative;
 }
 .filmtitle {
+    position: absolute;
     transition: .5s ease;
     opacity: 0;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
 .filminfo:hover .genre {
@@ -66,6 +74,7 @@ main section {
 }
 .ratings {
     margin-top: 1em;
+    color: var(--corn);
 }
 
 
@@ -95,9 +104,16 @@ main section {
     main section {
         width: 43.75em;
     }
-    
+
+    .filminfo {
+        position: initial;
+    }
     .filmtitle {
         opacity: 1;
+        position: initial;
+        top: initial;
+        left: initial;
+        transform: initial;
     }
 }
 
