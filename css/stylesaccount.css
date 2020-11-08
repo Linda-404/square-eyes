@@ -122,7 +122,7 @@ main section {
 	    display: flex;
     }
     .search {
-        width: 200px;
+        width: 14em;
     }
     .searchbox {
         margin-left: 0;
@@ -174,7 +174,7 @@ main section {
 	    display: flex;
     }
     .search {
-        width: 200px;
+        width: 14em;
     }
     nav {
         display: flex;

@@ -96,7 +96,7 @@ main section {
 	    display: flex;
     }
     .search {
-        width: 12.5em;
+        width: 14em;
     }
     .searchbox {
         margin-left: 0;
@@ -140,7 +140,7 @@ main section {
 	    display: flex;
     }
     .search {
-        width: 12.5em;
+        width: 14em;
     }
     nav {
         display: flex;
